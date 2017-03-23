@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131955256BEFAA253A7484FC /* Pods_Snapgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB35BB04D95ABC0BA28C7DD /* Pods_Snapgram.framework */; };
 		3B706C011E8454D40025498E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C001E8454D40025498E /* AppDelegate.swift */; };
 		3B706C031E8454D40025498E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C021E8454D40025498E /* ViewController.swift */; };
 		3B706C061E8454D50025498E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B706C041E8454D50025498E /* Main.storyboard */; };
@@ -14,6 +15,25 @@
 		3B706C0B1E8454D60025498E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B706C091E8454D60025498E /* LaunchScreen.storyboard */; };
 		3B706C161E8454D80025498E /* SnapgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C151E8454D80025498E /* SnapgramTests.swift */; };
 		3B706C211E8454DA0025498E /* SnapgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C201E8454DA0025498E /* SnapgramUITests.swift */; };
+		3B706C2F1E845AAD0025498E /* ParseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C2E1E845AAD0025498E /* ParseClient.swift */; };
+		3B706C321E845ABD0025498E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C301E845ABD0025498E /* Post.swift */; };
+		3B706C331E845ABD0025498E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C311E845ABD0025498E /* User.swift */; };
+		3B706C351E845AD30025498E /* KeyDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C341E845AD30025498E /* KeyDefinitions.swift */; };
+		3B706C3C1E845AE00025498E /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C361E845AE00025498E /* LoginButton.swift */; };
+		3B706C3D1E845AE00025498E /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C371E845AE00025498E /* LoginTextField.swift */; };
+		3B706C3E1E845AE00025498E /* PhotoCaptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C381E845AE00025498E /* PhotoCaptionTextView.swift */; };
+		3B706C3F1E845AE00025498E /* PhotoSectionHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C391E845AE00025498E /* PhotoSectionHeaderLabel.swift */; };
+		3B706C401E845AE00025498E /* PhotoSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C3A1E845AE00025498E /* PhotoSectionHeaderView.swift */; };
+		3B706C411E845AE00025498E /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C3B1E845AE00025498E /* PostTableViewCell.swift */; };
+		3B706C481E845AEE0025498E /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C421E845AEE0025498E /* PostsViewController.swift */; };
+		3B706C491E845AEE0025498E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C431E845AEE0025498E /* BaseNavigationController.swift */; };
+		3B706C4A1E845AEE0025498E /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C441E845AEE0025498E /* HomeTabBarController.swift */; };
+		3B706C4B1E845AEE0025498E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C451E845AEE0025498E /* LoginViewController.swift */; };
+		3B706C4C1E845AEE0025498E /* PostPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C461E845AEE0025498E /* PostPhotoViewController.swift */; };
+		3B706C4D1E845AEE0025498E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B706C471E845AEE0025498E /* ProfileViewController.swift */; };
+		3B706C4F1E845AFB0025498E /* PhotoSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B706C4E1E845AFB0025498E /* PhotoSectionHeader.xib */; };
+		9360F2FA1EB594C8B1D4ED1B /* Pods_SnapgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7D75E4C64FDC2A76B5A424 /* Pods_SnapgramTests.framework */; };
+		EF49334B6059A1BA47985736 /* Pods_SnapgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FC1C5EEAAAEBEFA1FF38D8 /* Pods_SnapgramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D7D75E4C64FDC2A76B5A424 /* Pods_SnapgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B706BFD1E8454D30025498E /* Snapgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B706C001E8454D40025498E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B706C021E8454D40025498E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,31 @@
 		3B706C1C1E8454D90025498E /* SnapgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B706C201E8454DA0025498E /* SnapgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapgramUITests.swift; sourceTree = "<group>"; };
 		3B706C221E8454DA0025498E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B706C2E1E845AAD0025498E /* ParseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseClient.swift; path = API/ParseClient.swift; sourceTree = "<group>"; };
+		3B706C301E845ABD0025498E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Models/Post.swift; sourceTree = "<group>"; };
+		3B706C311E845ABD0025498E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		3B706C341E845AD30025498E /* KeyDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyDefinitions.swift; path = "Supporting Files/KeyDefinitions.swift"; sourceTree = "<group>"; };
+		3B706C361E845AE00025498E /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginButton.swift; path = UI/Views/LoginButton.swift; sourceTree = "<group>"; };
+		3B706C371E845AE00025498E /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginTextField.swift; path = UI/Views/LoginTextField.swift; sourceTree = "<group>"; };
+		3B706C381E845AE00025498E /* PhotoCaptionTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCaptionTextView.swift; path = UI/Views/PhotoCaptionTextView.swift; sourceTree = "<group>"; };
+		3B706C391E845AE00025498E /* PhotoSectionHeaderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoSectionHeaderLabel.swift; path = UI/Views/PhotoSectionHeaderLabel.swift; sourceTree = "<group>"; };
+		3B706C3A1E845AE00025498E /* PhotoSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoSectionHeaderView.swift; path = UI/Views/PhotoSectionHeaderView.swift; sourceTree = "<group>"; };
+		3B706C3B1E845AE00025498E /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = UI/Views/PostTableViewCell.swift; sourceTree = "<group>"; };
+		3B706C421E845AEE0025498E /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsViewController.swift; path = "UI/View Controllers/PostsViewController.swift"; sourceTree = "<group>"; };
+		3B706C431E845AEE0025498E /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNavigationController.swift; path = "UI/View Controllers/BaseNavigationController.swift"; sourceTree = "<group>"; };
+		3B706C441E845AEE0025498E /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTabBarController.swift; path = "UI/View Controllers/HomeTabBarController.swift"; sourceTree = "<group>"; };
+		3B706C451E845AEE0025498E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "UI/View Controllers/LoginViewController.swift"; sourceTree = "<group>"; };
+		3B706C461E845AEE0025498E /* PostPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostPhotoViewController.swift; path = "UI/View Controllers/PostPhotoViewController.swift"; sourceTree = "<group>"; };
+		3B706C471E845AEE0025498E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "UI/View Controllers/ProfileViewController.swift"; sourceTree = "<group>"; };
+		3B706C4E1E845AFB0025498E /* PhotoSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoSectionHeader.xib; path = UI/Nibs/PhotoSectionHeader.xib; sourceTree = "<group>"; };
+		57DD2EAF736724B158888EA0 /* Pods-SnapgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapgramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapgramTests/Pods-SnapgramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB35BB04D95ABC0BA28C7DD /* Pods_Snapgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EEB6E19D8B2532CD44963D /* Pods-SnapgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapgramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapgramUITests/Pods-SnapgramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A74E9B8E2936F23B692A8D32 /* Pods-Snapgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapgram/Pods-Snapgram.debug.xcconfig"; sourceTree = "<group>"; };
+		E80C7BDCBBA2CE380BBA8B49 /* Pods-SnapgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapgramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapgramUITests/Pods-SnapgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0DC15A188B02B63B2C37EA /* Pods-SnapgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapgramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapgramTests/Pods-SnapgramTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0FC1C5EEAAAEBEFA1FF38D8 /* Pods_SnapgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68FCFB285BF3B9555EB55DD /* Pods-Snapgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snapgram/Pods-Snapgram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131955256BEFAA253A7484FC /* Pods_Snapgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9360F2FA1EB594C8B1D4ED1B /* Pods_SnapgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +116,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF49334B6059A1BA47985736 /* Pods_SnapgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E58796DB47BEF2499FBB748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A74E9B8E2936F23B692A8D32 /* Pods-Snapgram.debug.xcconfig */,
+				F68FCFB285BF3B9555EB55DD /* Pods-Snapgram.release.xcconfig */,
+				57DD2EAF736724B158888EA0 /* Pods-SnapgramTests.debug.xcconfig */,
+				ED0DC15A188B02B63B2C37EA /* Pods-SnapgramTests.release.xcconfig */,
+				E80C7BDCBBA2CE380BBA8B49 /* Pods-SnapgramUITests.debug.xcconfig */,
+				96EEB6E19D8B2532CD44963D /* Pods-SnapgramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3B706BF41E8454D10025498E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				3B706C141E8454D80025498E /* SnapgramTests */,
 				3B706C1F1E8454D90025498E /* SnapgramUITests */,
 				3B706BFE1E8454D30025498E /* Products */,
+				0E58796DB47BEF2499FBB748 /* Pods */,
+				9CD7CEBCB820B52AFE9929B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +161,11 @@
 		3B706BFF1E8454D30025498E /* Snapgram */ = {
 			isa = PBXGroup;
 			children = (
+				3B706C521E845C910025498E /* API */,
+				3B706C501E845C660025498E /* Models */,
+				3B706C511E845C700025498E /* Supporting Files */,
+				3B706C541E845CD40025498E /* Views */,
+				3B706C531E845CC00025498E /* View Controllers */,
 				3B706C001E8454D40025498E /* AppDelegate.swift */,
 				3B706C021E8454D40025498E /* ViewController.swift */,
 				3B706C041E8454D50025498E /* Main.storyboard */,
@@ -125,6 +194,68 @@
 			path = SnapgramUITests;
 			sourceTree = "<group>";
 		};
+		3B706C501E845C660025498E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B706C301E845ABD0025498E /* Post.swift */,
+				3B706C311E845ABD0025498E /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3B706C511E845C700025498E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B706C4E1E845AFB0025498E /* PhotoSectionHeader.xib */,
+				3B706C341E845AD30025498E /* KeyDefinitions.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B706C521E845C910025498E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3B706C2E1E845AAD0025498E /* ParseClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		3B706C531E845CC00025498E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B706C421E845AEE0025498E /* PostsViewController.swift */,
+				3B706C431E845AEE0025498E /* BaseNavigationController.swift */,
+				3B706C441E845AEE0025498E /* HomeTabBarController.swift */,
+				3B706C451E845AEE0025498E /* LoginViewController.swift */,
+				3B706C461E845AEE0025498E /* PostPhotoViewController.swift */,
+				3B706C471E845AEE0025498E /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3B706C541E845CD40025498E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B706C361E845AE00025498E /* LoginButton.swift */,
+				3B706C371E845AE00025498E /* LoginTextField.swift */,
+				3B706C381E845AE00025498E /* PhotoCaptionTextView.swift */,
+				3B706C391E845AE00025498E /* PhotoSectionHeaderLabel.swift */,
+				3B706C3A1E845AE00025498E /* PhotoSectionHeaderView.swift */,
+				3B706C3B1E845AE00025498E /* PostTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9CD7CEBCB820B52AFE9929B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB35BB04D95ABC0BA28C7DD /* Pods_Snapgram.framework */,
+				1D7D75E4C64FDC2A76B5A424 /* Pods_SnapgramTests.framework */,
+				F0FC1C5EEAAAEBEFA1FF38D8 /* Pods_SnapgramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B706C251E8454DA0025498E /* Build configuration list for PBXNativeTarget "Snapgram" */;
 			buildPhases = (
+				AB0879833DCE287443EB5ECE /* [CP] Check Pods Manifest.lock */,
 				3B706BF91E8454D30025498E /* Sources */,
 				3B706BFA1E8454D30025498E /* Frameworks */,
 				3B706BFB1E8454D30025498E /* Resources */,
+				9615C7918FE1C05FA1C0D955 /* [CP] Embed Pods Frameworks */,
+				234CADC75D076A5225A4FA69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B706C281E8454DA0025498E /* Build configuration list for PBXNativeTarget "SnapgramTests" */;
 			buildPhases = (
+				10586E0AFE6BFDBECD78B5AA /* [CP] Check Pods Manifest.lock */,
 				3B706C0D1E8454D70025498E /* Sources */,
 				3B706C0E1E8454D70025498E /* Frameworks */,
 				3B706C0F1E8454D70025498E /* Resources */,
+				2EBC2B0B4CA6FC52857F1087 /* [CP] Embed Pods Frameworks */,
+				D8B7F22A08FC888347D51EFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B706C2B1E8454DA0025498E /* Build configuration list for PBXNativeTarget "SnapgramUITests" */;
 			buildPhases = (
+				039C4E1F9C75DA2AA548C65D /* [CP] Check Pods Manifest.lock */,
 				3B706C181E8454D90025498E /* Sources */,
 				3B706C191E8454D90025498E /* Frameworks */,
 				3B706C1A1E8454D90025498E /* Resources */,
+				45F75772058DF544786495B6 /* [CP] Embed Pods Frameworks */,
+				1624C05E7BD718D2F7102DBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +378,7 @@
 				3B706C0B1E8454D60025498E /* LaunchScreen.storyboard in Resources */,
 				3B706C081E8454D60025498E /* Assets.xcassets in Resources */,
 				3B706C061E8454D50025498E /* Main.storyboard in Resources */,
+				3B706C4F1E845AFB0025498E /* PhotoSectionHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +398,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039C4E1F9C75DA2AA548C65D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		10586E0AFE6BFDBECD78B5AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1624C05E7BD718D2F7102DBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapgramUITests/Pods-SnapgramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234CADC75D076A5225A4FA69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapgram/Pods-Snapgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EBC2B0B4CA6FC52857F1087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapgramTests/Pods-SnapgramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F75772058DF544786495B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapgramUITests/Pods-SnapgramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9615C7918FE1C05FA1C0D955 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapgram/Pods-Snapgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0879833DCE287443EB5ECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B7F22A08FC888347D51EFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapgramTests/Pods-SnapgramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B706BF91E8454D30025498E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B706C4C1E845AEE0025498E /* PostPhotoViewController.swift in Sources */,
+				3B706C3F1E845AE00025498E /* PhotoSectionHeaderLabel.swift in Sources */,
+				3B706C3E1E845AE00025498E /* PhotoCaptionTextView.swift in Sources */,
+				3B706C351E845AD30025498E /* KeyDefinitions.swift in Sources */,
+				3B706C3D1E845AE00025498E /* LoginTextField.swift in Sources */,
+				3B706C2F1E845AAD0025498E /* ParseClient.swift in Sources */,
+				3B706C4D1E845AEE0025498E /* ProfileViewController.swift in Sources */,
+				3B706C3C1E845AE00025498E /* LoginButton.swift in Sources */,
 				3B706C031E8454D40025498E /* ViewController.swift in Sources */,
+				3B706C481E845AEE0025498E /* PostsViewController.swift in Sources */,
+				3B706C491E845AEE0025498E /* BaseNavigationController.swift in Sources */,
 				3B706C011E8454D40025498E /* AppDelegate.swift in Sources */,
+				3B706C331E845ABD0025498E /* User.swift in Sources */,
+				3B706C401E845AE00025498E /* PhotoSectionHeaderView.swift in Sources */,
+				3B706C4B1E845AEE0025498E /* LoginViewController.swift in Sources */,
+				3B706C321E845ABD0025498E /* Post.swift in Sources */,
+				3B706C411E845AE00025498E /* PostTableViewCell.swift in Sources */,
+				3B706C4A1E845AEE0025498E /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +706,7 @@
 		};
 		3B706C261E8454DA0025498E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74E9B8E2936F23B692A8D32 /* Pods-Snapgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BZJ87Y2489;
@@ -424,6 +720,7 @@
 		};
 		3B706C271E8454DA0025498E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68FCFB285BF3B9555EB55DD /* Pods-Snapgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BZJ87Y2489;
@@ -437,6 +734,7 @@
 		};
 		3B706C291E8454DA0025498E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DD2EAF736724B158888EA0 /* Pods-SnapgramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +750,7 @@
 		};
 		3B706C2A1E8454DA0025498E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0DC15A188B02B63B2C37EA /* Pods-SnapgramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +766,7 @@
 		};
 		3B706C2C1E8454DA0025498E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80C7BDCBBA2CE380BBA8B49 /* Pods-SnapgramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BZJ87Y2489;
@@ -481,6 +781,7 @@
 		};
 		3B706C2D1E8454DA0025498E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EEB6E19D8B2532CD44963D /* Pods-SnapgramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BZJ87Y2489;
@@ -512,6 +813,7 @@
 				3B706C271E8454DA0025498E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B706C281E8454DA0025498E /* Build configuration list for PBXNativeTarget "SnapgramTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +822,7 @@
 				3B706C2A1E8454DA0025498E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B706C2B1E8454DA0025498E /* Build configuration list for PBXNativeTarget "SnapgramUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +831,7 @@
 				3B706C2D1E8454DA0025498E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
